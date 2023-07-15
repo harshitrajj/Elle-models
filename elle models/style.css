@@ -1,0 +1,111 @@
+body {
+    background-image: url(./image/bg.webp);
+    margin: 0px;
+    height: 110vh;
+}
+
+
+header {
+
+    padding: 30px;
+    position: sticky;
+    top: 0;
+}
+
+.logobox {
+    display: inline-block;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.logobox:hover {
+    color: salmon;
+}
+
+.bar {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    width: 600px;
+
+}
+
+.bar>a {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.bar>a:hover {
+    color: red;
+}
+
+#homie {
+    color: rgb(210, 139, 139);
+}
+
+
+
+#EL {
+    color: salmon;
+    font-size: 90px;
+    position: relative;
+    top: 50px;
+    left: 90px;
+    
+    width: 600px;
+    font-family: 'Roboto';
+}
+
+
+#ny {
+    color:white;
+    position: relative;
+    
+    left: 120px;
+    bottom: 30px;
+   
+    width: 600px;
+    font-size: 30px;
+  
+}
+
+
+#para{
+    color:white;
+    position: relative;
+    left: 120px;
+    word-spacing: 4px;
+   
+    width: 500px;
+    font-size: 20px;
+    font-family:'Roboto';
+    font-weight: lighter;
+    
+    
+}
+
+
+.button{
+    color: White;
+    background-color: salmon;
+    width: 120px;
+    padding: 10px;
+    top:30px;
+    position: relative;
+    left: 190px;
+    border-radius: 4%;
+    border: none;
+    transition: all 0.5s ;
+}
+
+
+.button:hover{
+    color: salmon;
+    background-color: white;
+}
